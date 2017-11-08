@@ -235,11 +235,11 @@ section.full-width:before {
 	margin-right: 0;
 	margin-bottom: 25px;
 	margin-left: 0;
-	padding-left: 28px;
+	padding-left: 12px;
 }
 
 .title-widget::before {
-    background-color: #ea5644;
+    background-color: #e73934;
     content: "";
     height: 22px;
     left: 0px;
@@ -359,7 +359,7 @@ a {
     color: #ea5947;
 }
 a:focus, a:hover {
-    color: #ff1c00;
+    color: #ea5947;
     text-decoration: none;
 }
 .footerp, .about-us {
