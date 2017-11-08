@@ -54,10 +54,10 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#About us">About us</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#News">News</a></li>
-                <li><a href="#Contact">Contact</a></li>
+                <li><a data-scroll href="#About us">About us</a></li>
+                <li><a data-scroll href="#services">Services</a></li>
+                <li><a data-scroll href="#News">News</a></li>
+                <li><a data-scroll href="#Contact">Contact</a></li>
               </ul>
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
@@ -293,16 +293,13 @@
                                 <h1 class="title-widget">Contact Detail </h1>
                                 
                                 <div class="footerp"> 
-                                
-                                    <h2 class="title-median">Webenlance Pvt. Ltd.</h2>
-                                    <p><b>Email id:</b> <a href="mailto:info@webenlance.com">info@webenlance.com</a></p>
+                                    <h2 class="title-median">My - Website</h2>
+                                    <a href="index.html" style="color: #e73934; font-size: 30px;font-weight: bold; margin-bottom: 20px;display: block;">Logo</a>
+                                    <p><b>Email :</b> <a href="mailto:info@companyname.com">info@companyname.com</a></p>
                                     <p><b>Helpline Numbers </b>
-
                                     <b style="color:#ffc106;">(8AM to 10PM):</b>  +91-8130890090, +91-8130190010  </p>
 
-                                    <p><b>Corp Office / Postal Address</b></p>
-                                    <p><b>Phone Numbers : </b>7042827160, </p>
-                                    <p> 011-27568832, 9868387223</p>
+                                  
                                 </div>
                                 
                     		</li>
@@ -314,14 +311,12 @@
                         	<li class="widget-container widget_nav_menu"><!-- widgets list -->
                     
                                 <h1 class="title-widget">links</h1>
-                                
                                 <ul>
-                                	<li><a  href="#"><i class="fa fa-angle-right"></i> About Us</a></li>
-                                    <li><a  href="#"><i class="fa fa-angle-right"></i> Contact Us</a></li>
-                                    <li><a  href="#"><i class="fa fa-angle-right"></i> Success Stories</a></li>
-                                    <li><a  href="#"><i class="fa fa-angle-right"></i> PG Courses</a></li>
-                                    <li><a  href="#"><i class="fa fa-angle-right"></i> Achiever's Batch</a></li>
-                                    <li><a  href="#"><i class="fa fa-angle-right"></i>  Regular Batch</a></li>
+                                	<li><a  href="index.html"><i class="fa fa-angle-right"></i> Home</a></li>
+                                    <li><a  href="#About us"><i class="fa fa-angle-right"></i> About us</a></li>
+                                    <li><a  href="#services"><i class="fa fa-angle-right"></i> Services</a></li>
+                                    <li><a  href="#News"><i class="fa fa-angle-right"></i> News</a></li>
+                                    <li><a  href="#Contact"><i class="fa fa-angle-right"></i> Contact</a></li>
                                 </ul>
                     
 							</li>
@@ -340,21 +335,16 @@
                         	<li class="widget-container widget_nav_menu"><!-- widgets list -->
                     
                                 <h1 class="title-widget">links</h1>
-                                
                                 <ul>
- 									<li><a  href="#"><i class="fa fa-angle-right"></i>  Test Series Schedule</a></li>
-                                    <li><a  href="#"><i class="fa fa-angle-right"></i>  Postal Coaching</a></li>
-                                    <li><a  href="#"><i class="fa fa-angle-right"></i>  PG Dr. Bhatia Books</a></li>
-                                    <li><a  href="#"><i class="fa fa-angle-right"></i>  UG Courses</a></li>
-                                    <li><a  href="#"><i class="fa fa-angle-right"></i>  Satellite Education</a></li>
-                                    <li><a  href="#"><i class="fa fa-angle-right"></i>  Study Centres</a></li>
+ 									<li><a  href="index.html"><i class="fa fa-angle-right"></i> Home</a></li>
+                                    <li><a  href="#About us"><i class="fa fa-angle-right"></i> About us</a></li>
+                                    <li><a  href="#services"><i class="fa fa-angle-right"></i> Services</a></li>
+                                    <li><a  href="#News"><i class="fa fa-angle-right"></i> News</a></li>
+                                    <li><a  href="#Contact"><i class="fa fa-angle-right"></i> Contact</a></li>
+                                    
                                 </ul>
-                    
 							</li>
-                            
                         </ul>
-                         
-                      
                 </div><!-- widgets column left end -->
                 
                 
@@ -367,7 +357,7 @@
                                 <h1 class="title-widget">About us </h1>
                                 
                                 <div class="about-us"> 
-                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                 </div>
                     		</li>
                           </ul>
@@ -417,5 +407,10 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/scrolup.js"></script>
+        <script src="js/smooth-scroll.js"></script>
+        <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+        </script>
+        
     </body>
 </html>
