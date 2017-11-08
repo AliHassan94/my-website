@@ -1,6 +1,7 @@
 body{
     font-family: 'Ubuntu', sans-serif;
 }
+
 section.top-bar {
     padding: 10px 0;
     background: #3a3a3a;
@@ -91,6 +92,8 @@ h3{
 .text3
 {
     margin: 0;
+    font-size: 26px;
+    text-align: left;
 }
 section.full-width {
     background: url(http://web24service.com/demo/w-shipping/assets/images/we-provide-bg.jpg);
@@ -130,7 +133,7 @@ section.full-width:before {
     height: 40px;
     text-align: center;
     border-radius: 100%;
-    background: #790000;
+    background: #e73934;
     line-height: 40px;
     color: #fff;
     font-size: 20px;
@@ -157,6 +160,9 @@ section.full-width:before {
 .number-item{
     text-align: center;
     color: #fff;
+}
+.number-item .fa{
+   color:  #e73934;
 }
 .number-item span{
     display: block;
@@ -202,7 +208,7 @@ section.full-width:before {
     width: calc(100% - 255px);
 }
 .news-item.big img {
-    width: 235px;
+    width: 233px;
 }
 
 .footer1 {
@@ -358,4 +364,52 @@ a:focus, a:hover {
 }
 .footerp, .about-us {
     color: #999;
+}
+
+
+
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    background-color: #e73934;
+     color: #fff;
 }
