@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>project</title>
+		<title>My Website</title>
 		<!-- (added) put any style file, you can put many files -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -47,26 +47,17 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <img src="img/twilio-logo-red.png" style="width: 134px;margin: 5px; margin-left: 0;">
+                <a href="index.html" style="color: #e73934; font-size: 30px;font-weight: bold;">Logo</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About us</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="#">Separated link</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">Media</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#About us">About us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#News">News</a></li>
+                <li><a href="#Contact">Contact</a></li>
               </ul>
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
@@ -113,7 +104,7 @@
 
           <!-- Three columns of text below the carousel -->
           <div class="row">
-              <h2 class="text-center" style="font-weight: bold;margin-bottom: 20px; color: #e73934">Services</h2>
+              <h2 id="services" class="text-center" style="font-weight: bold;margin-bottom: 20px; color: #e73934">Services</h2>
             <div class="col-lg-4">
                 <div class="div-item">
                     <img class="img-responsive img-thumbnail"  src="img/eiffel.jpg" alt="Generic placeholder image">
@@ -145,7 +136,7 @@
 
 
           <!-- /END THE FEATURETTES -->
-        <section class="full-width">
+        <section id="Contact" class="full-width">
                 <div class="container" style="position: relative;">
                 <h3 class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</h3>
                 <div class="text-center">
@@ -156,6 +147,7 @@
         <section>
             <div class="container">
                 <div class="row">
+                    <h2 id="About us" class="text-center" style="font-weight: bold;margin-bottom: 20px; color: #e73934;padding-bottom: 20px;">About us</h2>
                     <div class="col-lg-4">
                         <img src="img/why-choose-us.jpg" alt="...">
                     </div>
@@ -215,7 +207,7 @@
                 </div>
             </div>
         </section>
-        <section class="news">
+        <section id="News" class="news">
             <div class="container">
                 <div class="col-xs-12 col-sm-6">
                     <h2 style="font-weight: bold;margin-bottom: 20px;color: #e73934;">News</h2>
